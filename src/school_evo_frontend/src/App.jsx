@@ -1,16 +1,16 @@
 import { useState } from 'react';
-import { project_name_backend } from 'declarations/project_name_backend';
+//import { project_name_backend } from 'declarations/project_name_backend';
 
 function App() {
   const [greeting, setGreeting] = useState('');
 
   function handleSubmit(event) {
-    event.preventDefault();
+  /*  event.preventDefault();
     const name = event.target.elements.name.value;
     project_name_backend.greet(name).then((greeting) => {
       setGreeting(greeting);
     });
-    return false;
+    return false;*/
   }
 
   return (

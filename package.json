@@ -13,6 +13,6 @@
   },
   "type": "module",
   "workspaces": [
-    "src/project_name_frontend"
+    "src/school_evo_frontend"
   ]
 }
