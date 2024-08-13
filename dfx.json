@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "school_evo_backend": {
+      "main": "src/project_name_backend/main.mo",
+      "type": "motoko"
+    },
+    "school_evo_frontend": {
+      "dependencies": [
+        "school_evo_backend"
+      ],
+      "source": [
+        "src/school_evo_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "school_evo_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
